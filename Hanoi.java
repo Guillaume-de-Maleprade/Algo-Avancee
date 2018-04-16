@@ -12,7 +12,7 @@ public class Hanoi{
     public static void resoudreAux(int n, int i, int j){
         int k = 6-i-j;
         if(n==0){
-            System.out.println("Rien n'à faire... Hanoi vide");
+            System.out.println("Rien à faire... Hanoi vide");
         }
         if(n==1){
             System.out.println(i+"->"+(i+j));
