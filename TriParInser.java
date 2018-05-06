@@ -8,7 +8,9 @@ public class TriParInser{
                 int x = t[i];
                 t[i]=t[i+1];
                 t[i+1]=x;
-                /** Puis on appelle {@code insere()} sur la case suivante */
+                /**
+                 *  Puis on appelle {@code insere()} sur la case suivante
+                 */
                 insere(t, i+1);
             }
         }
