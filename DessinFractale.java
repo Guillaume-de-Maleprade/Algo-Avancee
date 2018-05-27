@@ -190,16 +190,7 @@ class DessinFractale{
 	public void tourGigogne(double l, int n){
 		if(n==0)
 			bob.forward(l);
-		if(n==1){
-			bob.left(90);
-			bob.forward(l);
-			bob.right(90);
-			bob.forward(l);
-			bob.right(90);
-			bob.forward(l);
-			bob.left(90);
-		}
-		if(n>1){
+		else{
 			bob.left(90);
 			bob.forward(l);
 			bob.right(90);
